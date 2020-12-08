@@ -1,0 +1,95 @@
+<div class="beardcrum d--flex">
+    <i nz-icon nzType="home" nzTheme="fill" style="font-size: 19.5px; color: #333;"></i>
+    <a routerLink="dashboard" class="beardcrum-title"> Dashboard</a>
+</div>
+<!-- <div class="content">
+
+    <div class="content-col">
+        Col
+    </div>
+    <div class="content-col">
+        Col
+    </div>
+    <div class="content-col">
+        Col
+    </div>
+
+    <div class="content-col">
+        Col
+    </div>
+    <div class="content-col">
+        Col
+    </div>
+
+</div> -->
+<div nz-row class="nz-row">
+    <div class="nz-col" nz-col nzFlex="0 0 19%">
+        <div class="nz-col-grid">
+            <nz-avatar class="nz-avatar" [nzSize]="70" nzSrc="./assets/images/tongso.jpg"></nz-avatar>
+            <div class="nz-col-grid-content">
+                <div class="number-tongso">
+                    <span>350</span>
+                </div>
+                <div class="title-content">
+                    <span>Tổng số</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nz-col" nz-col nzFlex="0 0 19%">
+        <div class="nz-col-grid">
+            <nz-avatar class="nz-avatar" [nzSize]="70" nzSrc="./assets/images/thaisan.jpg"></nz-avatar>
+            <div class="nz-col-grid-content">
+                <div class="number-thaisan">
+                    <span>35</span>
+                </div>
+                <div class="title-content">
+                    <span>Thai sản</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nz-col" nz-col nzFlex="0 0 19%">
+        <div class="nz-col-grid">
+            <nz-avatar class="nz-avatar" [nzSize]="70" nzSrc="./assets/images/thuviec.jpg"></nz-avatar>
+            <div class="nz-col-grid-content">
+                <div class="number-thuviec">
+                    <span>15</span>
+                </div>
+                <div class="title-content">
+                    <span>Thử việc</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nz-col" nz-col nzFlex="0 0 19%">
+        <div class="nz-col-grid">
+            <nz-avatar class="nz-avatar" [nzSize]="70" nzSrc="./assets/images/thoiviec.jpg"></nz-avatar>
+            <div class="nz-col-grid-content">
+                <div class="number-thoiviec">
+                    <span>15</span>
+                </div>
+                <div class="title-content">
+                    <span>Thôi việc</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nz-col" nz-col nzFlex="0 0 19%">
+        <div class="nz-col-grid">
+            <nz-avatar class="nz-avatar-dtv" [nzSize]="70" nzSrc="./assets/images/donthoiviec.jpg"></nz-avatar>
+            <div class="nz-col-grid-content-dtv">
+                <div class="number-donthoiviec">
+                    <span>9</span>
+                </div>
+                <div class="title-donthoiviec">
+                    <span>Đơn thôi việc</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="divChart">
+    <canvas id="myChart" class="myChart" width="auto" height="100px"></canvas>
+    <div id="legend"></div>
+</div>

@@ -1,0 +1,166 @@
+nz-divider {
+    color: #333;
+    font-weight: normal;
+}
+
+.inner-box {
+    background: #0092ff;
+    padding: 8px 0;
+}
+
+.beardcrum {
+    color: #333;
+}
+
+.beardcrum-title {
+    text-indent: 10px;
+    font-weight: 500;
+    color: #333;
+}
+
+.d--flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inner-content {
+    padding: 24px;
+    background: #fff;
+    height: 100%;
+}
+
+.content-col {
+    background: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+.content {
+    margin: 18px;
+    display: grid;
+    grid-gap: 1.25%;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+}
+
+.divChart {
+    margin: 18px;
+    display: block;
+    width: auto;
+    height: auto;
+    background: #fff;
+}
+
+.myChart {
+    display: block;
+    width: 100% !important;
+}
+
+.nz-row {
+    margin: 18px;
+}
+
+.nz-col:first-child {
+    margin: 0;
+}
+
+.nz-col {
+    display: block;
+    height: 100px;
+    margin-left: 1.25%;
+    background: #fff;
+}
+
+.nz-col-grid {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    grid-template-columns: 40% 60%;
+}
+
+.nz-avatar {
+    display: block;
+    margin: auto -10px auto auto;
+    border-radius: 50%;
+}
+
+.nz-avatar-dtv {
+    display: block;
+    margin: auto -0px auto auto;
+}
+
+.nz-col-grid-content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 10px 20px 10px 0px;
+    flex-direction: column;
+}
+
+.nz-col-grid-content-dtv {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 10px 10px 10px 0px;
+    flex-direction: column;
+}
+
+.number-tongso {
+    display: block;
+    font-size: 40px;
+    text-align: right;
+    line-height: 42px;
+    font-weight: bold;
+    color: green;
+}
+
+.number-thaisan {
+    display: block;
+    font-size: 40px;
+    text-align: right;
+    line-height: 42px;
+    font-weight: bold;
+    color: #ffc000;
+}
+
+.number-thuviec {
+    display: block;
+    font-size: 40px;
+    text-align: right;
+    line-height: 42px;
+    font-weight: bold;
+    color: #0071c1;
+}
+
+.number-thoiviec {
+    display: block;
+    font-size: 40px;
+    text-align: right;
+    line-height: 42px;
+    font-weight: bold;
+    color: #7f7f7f;
+}
+
+.number-donthoiviec {
+    display: block;
+    font-size: 40px;
+    text-align: right;
+    line-height: 42px;
+    font-weight: bold;
+    color: #c00000;
+}
+
+.title-content {
+    display: block;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 500;
+}
+
+.title-donthoiviec {
+    display: block;
+    font-size: 17px;
+    text-align: right;
+    font-weight: 500;
+}
